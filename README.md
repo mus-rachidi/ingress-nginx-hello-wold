@@ -22,7 +22,7 @@ minikube addons list  --profile cluster-test-1
 ```
 
 ```
-kubectl apply -f hello-world-ingress.yaml
+kubectl apply -f kubectl apply -f nginx-deployment.yaml
 kubectl apply -f nginx-service.yaml 
 kubectl apply -f hello-world-ingress.yaml
 ```
